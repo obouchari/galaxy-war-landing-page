@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://galaxy-war-landing-page.netlify.app/">
-    <img alt="Galaxy War Landing Page" src="https://res.cloudinary.com/zentai-consulting/image/upload/v1630321762/game-landing-page/logo_iigm6c.png" width="60" />
+    <img alt="Galaxy War Landing Page" src="https://res.cloudinary.com/zentai-consulting/image/upload/v1630321762/game-landing-page/logo_iigm6c.png"/>
   </a>
 </p>
 <h1 align="center">
