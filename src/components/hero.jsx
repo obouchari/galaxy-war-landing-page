@@ -8,7 +8,13 @@ export default function Hero() {
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-              <div className="lg:py-7">
+              <div
+                className="lg:py-7"
+                data-sal="slide-right"
+                data-sal-duration="500"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+              >
                 <a
                   href="https://github.com/obouchari"
                   className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
@@ -44,7 +50,13 @@ export default function Hero() {
               </div>
             </div>
             <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-              <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+              <div
+                className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md"
+                data-sal="slide-left"
+                data-sal-duration="500"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+              >
                 <a
                   href="/"
                   className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-purple-500"

@@ -39,10 +39,16 @@ const howToPlay = [
 
 export default function AboutGame() {
   return (
-    <div className="py-16 overflow-hidden lg:py-20">
+    <div className="py-16 overflow-hidden lg:py-20" id="about-game">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-          <div className="relative">
+          <div
+            className="relative"
+            data-sal="slide-up"
+            data-sal-duration="500"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+          >
             <h2 className="text-2xl font-extrabold leading-5 text-yellow-400 sm:text-4xl">
               About the Game
             </h2>
@@ -77,13 +83,23 @@ export default function AboutGame() {
               width={490}
               src="https://res.cloudinary.com/zentai-consulting/image/upload/v1630346401/game-landing-page/spaceship_vsqo73.png"
               alt="Spaceship"
+              data-sal="slide-left"
+              data-sal-duration="500"
+              data-sal-delay="400"
+              data-sal-easing="ease"
             />
           </div>
         </div>
 
         <div className="relative mt-12 sm:mt-16 lg:mt-24">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
-            <div className="lg:col-start-2">
+            <div
+              className="lg:col-start-2"
+              data-sal="slide-up"
+              data-sal-duration="500"
+              data-sal-delay="300"
+              data-sal-easing="ease"
+            >
               <h2 className="text-2xl font-extrabold leading-5 text-yellow-400 sm:text-4xl">
                 How to play?
               </h2>
@@ -118,6 +134,10 @@ export default function AboutGame() {
                 width={340}
                 src="https://res.cloudinary.com/zentai-consulting/image/upload/v1630346873/game-landing-page/how-to-play_rpcthh.png"
                 alt="Crazy guy with joystick"
+                data-sal="slide-right"
+                data-sal-duration="500"
+                data-sal-delay="400"
+                data-sal-easing="ease"
               />
             </div>
           </div>

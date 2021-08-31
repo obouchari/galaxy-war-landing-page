@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutDeveloper() {
   return (
-    <div className="bg-indigo-900">
+    <div className="bg-indigo-900" id="about-dev">
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-4 lg:gap-10 lg:space-y-0">
           <div className="aspect-w-3 aspect-h-2 sm:aspect-w-1 sm:aspect-h-1">
@@ -10,10 +10,20 @@ export default function AboutDeveloper() {
               className="object-cover shadow-lg rounded-lg"
               src="https://res.cloudinary.com/zentai-consulting/image/upload/v1630360969/game-landing-page/profile2_gwbxmg.jpg"
               alt="Otman Bouchari"
+              data-sal="slide-right"
+              data-sal-duration="500"
+              data-sal-delay="400"
+              data-sal-easing="ease"
             />
           </div>
           <div className="sm:col-span-3">
-            <div className="space-y-4">
+            <div
+              className="space-y-4"
+              data-sal="slide-up"
+              data-sal-duration="500"
+              data-sal-delay="300"
+              data-sal-easing="ease"
+            >
               <div className="space-y-1">
                 <h3 className="text-2xl leading-6 font-medium space-y-1 text-gray-300">
                   Otman Bouchari

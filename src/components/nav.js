@@ -4,8 +4,8 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "Home", href: "#" },
-  { name: "About the game", href: "#" },
-  { name: "Meet the developer", href: "#" },
+  { name: "About the game", href: "#about-game" },
+  { name: "Meet the developer", href: "#about-dev" },
 ];
 
 export default function Nav() {
@@ -19,7 +19,7 @@ export default function Nav() {
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
               <a href="/">
-                <span className="sr-only">Workflow</span>
+                <span className="sr-only">Galaxy War Game</span>
                 <img
                   className="h-6 w-auto sm:h-8"
                   src="https://res.cloudinary.com/zentai-consulting/image/upload/v1630321762/game-landing-page/logo_iigm6c.png"
