@@ -22,14 +22,16 @@ export default function Hero() {
                     aria-hidden="true"
                   />
                 </a>
-                <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-7 sm:text-6xl lg:mt-7 xl:text-6xl">
-                  <span className="block">A better way to</span>
-                  <span className="block text-yellow-300">ship web apps</span>
+                <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-7 sm:text-5xl lg:mt-10">
+                  <span className="block">Hey Captain!</span>
+                  <span className="block text-yellow-300">
+                    We are under attack!
+                  </span>
                 </h1>
                 <p className="mt-3 text-base text-gray-100 sm:mt-7 sm:text-xl lg:text-lg xl:text-xl">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat.
+                  Space shooter is one of my favorite arcade games and I have
+                  always wanted to build one myself. I’m super excited to
+                  finally have the opportunity to build a similar game.
                 </p>
                 <div className="mt-10 sm:mt-14">
                   <a

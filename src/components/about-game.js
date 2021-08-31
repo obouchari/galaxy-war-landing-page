@@ -1,49 +1,39 @@
 import React from "react";
 import {
-  AnnotationIcon,
-  GlobeAltIcon,
-  LightningBoltIcon,
-  MailIcon,
-  ScaleIcon,
+  ArrowsExpandIcon,
+  CursorClickIcon,
+  HeartIcon,
+  ShieldExclamationIcon,
 } from "@heroicons/react/outline";
 
-const transferFeatures = [
+const gameFeatures = [
   {
     id: 1,
-    name: "Competitive exchange rates",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: GlobeAltIcon,
+    name: "Choose your ship",
+    description: "Use Left and Right arrows to select your favorite ship.",
+    icon: CursorClickIcon,
   },
   {
     id: 2,
-    name: "No hidden fees",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon,
+    name: "Enemies are shooting",
+    description: "Every hit by an enemy's laser reduce your life by 5%.",
+    icon: ShieldExclamationIcon,
   },
   {
     id: 3,
-    name: "Transfers are instant",
+    name: "Here comes a chaser",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
+      "Chaser ships follow you around when you are close by. Avoid them at all cost.",
+    icon: HeartIcon,
   },
 ];
-const communicationFeatures = [
+const howToPlay = [
   {
     id: 1,
-    name: "Mobile notifications",
+    name: "Keyboard time!",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: AnnotationIcon,
-  },
-  {
-    id: 2,
-    name: "Reminder emails",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: MailIcon,
+      "To move your ship around use the following keyboard keys: w:UP, s:DOWN, a:LEFT, d:RIGHT, space:SHOOT.",
+    icon: ArrowsExpandIcon,
   },
 ];
 
@@ -57,14 +47,13 @@ export default function AboutGame() {
               About the Game
             </h2>
             <p className="mt-10 text-lg text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              minima sequi recusandae, porro maiores officia assumenda aliquam
-              laborum ab aliquid veritatis impedit odit adipisci optio iste
-              blanditiis facere. Totam, velit.
+              Galaxy war is a 2D, shooter-classic arcade game where player
+              controls a Spaceship and shoots alien spaceships (enemy) to save
+              the galaxy.
             </p>
 
             <dl className="mt-10 space-y-10">
-              {transferFeatures.map((item) => (
+              {gameFeatures.map((item) => (
                 <div key={item.id} className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-purple-600 text-white">
@@ -105,7 +94,7 @@ export default function AboutGame() {
               </p>
 
               <dl className="mt-10 space-y-10">
-                {communicationFeatures.map((item) => (
+                {howToPlay.map((item) => (
                   <div key={item.id} className="relative">
                     <dt>
                       <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-purple-600 text-white">

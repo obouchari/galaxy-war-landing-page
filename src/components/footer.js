@@ -52,7 +52,7 @@ const navigation = [
   },
   {
     name: "Blog",
-    href: "https://obouchari.me",
+    href: "https://blod.obouchari.me",
     icon: (props) => (
       <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" {...props}>
         <path
@@ -76,6 +76,7 @@ export default function Footer() {
               key={item.name}
               href={item.href}
               target="_blank"
+              rel="noreferrer"
               className="text-gray-300 hover:text-yellow-400"
             >
               <span className="sr-only">{item.name}</span>

@@ -9,7 +9,7 @@ export default function AboutDeveloper() {
             <img
               className="object-cover shadow-lg rounded-lg"
               src="https://res.cloudinary.com/zentai-consulting/image/upload/v1630360969/game-landing-page/profile2_gwbxmg.jpg"
-              alt="Otman's Picture"
+              alt="Otman Bouchari"
             />
           </div>
           <div className="sm:col-span-3">

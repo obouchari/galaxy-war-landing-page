@@ -47,7 +47,7 @@ export default function Nav() {
           </div>
           <div className="hidden md:flex md:items-center md:space-x-6">
             <a
-              href="/"
+              href="https://galaxy-war.netlify.app"
               className="inline-flex items-center px-4 py-2 text-base font-medium rounded-md text-yellow-400 border border-yellow-400 hover:bg-yellow-400 hover:text-black"
             >
               Ready to be the Hero?
