@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Galaxy War game landing page
+  Galaxy War landing page
 </h1>
 
 ## 🚀 Quick start
