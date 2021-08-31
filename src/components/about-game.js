@@ -27,6 +27,7 @@ const gameFeatures = [
     icon: HeartIcon,
   },
 ];
+
 const howToPlay = [
   {
     id: 1,
